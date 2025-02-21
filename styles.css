@@ -1,0 +1,89 @@
+body {
+    background-color: #f4f4f4; /* Світло-сірий фон */
+    font-family: 'Serif', serif; /* Використовуємо шрифт Serif */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.product-container {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    font-size: 18px;
+}
+
+.new-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.order-btn {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.order-btn:hover {
+    background-color: #cc3700;
+}
+
+.order-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
